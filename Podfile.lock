@@ -22,6 +22,7 @@ PODS:
     - FMDB
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
+  - MXRProfiler (0.0.1)
   - RealReachability (1.1.8):
     - RealReachability/Connection (= 1.1.8)
     - RealReachability/Ping (= 1.1.8)
@@ -42,6 +43,7 @@ DEPENDENCIES:
   - LKDBHelper (~> 2.4)
   - Masonry (~> 1.0.2)
   - MBProgressHUD (~> 1.0.0)
+  - MXRProfiler (~> 0.0.1)
   - RealReachability (~> 1.1.8)
   - SDWebImage (~> 3.8.2)
   - SVProgressHUD (~> 2.0.4)
@@ -55,12 +57,13 @@ SPEC CHECKSUMS:
   LKDBHelper: 1162892ca4ffc28029070d6f40f57b333133f1c4
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MXRProfiler: 70449d8f2c6f6fc4f278d36c2693959b001d4d4a
   RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: f06617a1bd880dcc8d4e14b0c9bcdd09a7930dd3
+PODFILE CHECKSUM: 18235a8784734361f7276dfefec472ede2bf3bac
 
 COCOAPODS: 1.1.1

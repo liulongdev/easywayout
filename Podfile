@@ -10,6 +10,7 @@ def shared_dependencies
   pod 'UITableView+FDTemplateLayoutCell', '~> 1.4'
   pod 'BaiduMapKit', '~> 3.1.0'
   pod 'RealReachability', '~> 1.1.8'
+  pod 'MXRProfiler', '~> 0.0.1'
 end
 
 workspace "easywayout.xcodeproj"

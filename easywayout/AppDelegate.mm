@@ -9,12 +9,15 @@
 #import "AppDelegate.h"
 //#import <YYKit.h>
 #import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <MXRProfilerTool.h>
 @interface AppDelegate ()
 
 @end
 BMKMapManager *_mapManager;
 @implementation AppDelegate
-
+{
+    MXRProfilerTool *_profiler;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -22,6 +25,9 @@ BMKMapManager *_mapManager;
     
     _mapManager = [[BMKMapManager alloc] init];
     [_mapManager start:@"Qx4tcbgXcxBQoZtjuy7H51TjVjzpCgix" generalDelegate:self];
+    
+//    _profiler = [[MXRProfilerTool alloc] init];
+//    [_profiler startAnalyze];
     return YES;
 }
 
